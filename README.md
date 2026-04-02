@@ -54,6 +54,7 @@ The script performs:
 - rough color grouping
 - simple composition heuristics
 - style-based font matching against curated font profiles
+- lightweight glyph-shape analysis for headline letterforms
 
 ### 2. Web-assisted refinement
 
@@ -64,6 +65,32 @@ When internet access is available, it improves recommendations using public refe
 - public color name references
 
 If web lookups fail, it still returns useful local-only output.
+
+### 3. Optional Canva enrichment
+
+Canva support is optional by design.
+
+If a user has access to a Canva app or their own tooling, they can pass a JSON export from Canva's official `findFonts()` endpoint to enrich font ranking.
+
+Example:
+
+```bash
+python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.png" ^
+  --canva-fonts-json canva-fonts.json
+```
+
+Or with an environment variable:
+
+```bash
+set CANVA_FONTS_JSON=C:\path\to\canva-fonts.json
+python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.png"
+```
+
+Important:
+
+- Canva is not required
+- the skill still works normally without it
+- Canva's official docs say `findFonts()` returns only a subset of Canva fonts
 
 ## Example use cases
 
@@ -140,6 +167,7 @@ python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.p
 - `visual-design-decoder/references/font_profiles.json`
 - `visual-design-decoder/references/public_sources.md`
 - `visual-design-decoder/examples/`
+- `visual-design-decoder/examples/canva-fonts.example.json`
 
 ## Accuracy notes
 
@@ -190,7 +218,8 @@ Potential upgrades for later versions:
 - attachment-first workflow helpers
 - richer component segmentation
 - optional OCR integration
-- better font confidence scoring
+- rendered specimen comparison for stronger font ranking
+- richer provider adapters beyond Canva
 
 ## License
 

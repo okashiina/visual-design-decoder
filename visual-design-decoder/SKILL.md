@@ -58,9 +58,23 @@ What the script does:
 - groups colors into dominant / accent / neutral
 - estimates background and contrast-heavy regions
 - infers rough composition from horizontal bands
+- extracts lightweight glyph-shape hints from likely headline letters
 - uses public web lookup to refine:
   - color naming
   - likely font replacement candidates
+
+Optional Canva enrichment:
+
+```bash
+python scripts/analyze_image_design.py "PATH_TO_IMAGE" \
+  --canva-fonts-json path/to/canva-fonts.json
+```
+
+If a user can export Canva's official `findFonts()` response, the analyzer can use it as an optional ranking signal.
+Important:
+- Canva is never required for this skill
+- Canva's official docs say `findFonts()` returns only a subset of Canva fonts
+- treat Canva enrichment as a bonus signal, not as the source of truth
 
 ### 3. Interpret the output carefully
 
@@ -77,6 +91,11 @@ Treat the results in three buckets:
   - web-safe fonts
   - suggested CSS variables
   - implementation-friendly component mapping
+
+If Canva enrichment is not connected:
+- say so briefly
+- mention that future users can optionally provide a `findFonts()` JSON export
+- keep the rest of the analysis fully usable
 
 Never present font matches as guaranteed. Always call them likely matches or recommended substitutes unless the image itself clearly embeds a known typeface.
 
@@ -132,6 +151,9 @@ Default sources:
 - Google Fonts metadata
 - public font catalogs/directories
 - public color naming references
+
+Optional source:
+- Canva `findFonts()` JSON export supplied by the user
 
 If public web lookup fails:
 - fall back to local-only analysis

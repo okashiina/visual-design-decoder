@@ -1,0 +1,26 @@
+{
+  "fonts": [
+    {
+      "ref": "PLACEHOLDER_FONT_REF",
+      "name": "Baloo 2",
+      "weights": [
+        {
+          "weight": "bold",
+          "styles": ["normal"]
+        }
+      ],
+      "previewUrl": "https://example.com/baloo2-preview.png"
+    },
+    {
+      "ref": "PLACEHOLDER_FONT_REF_2",
+      "name": "Mochiy Pop One",
+      "weights": [
+        {
+          "weight": "normal",
+          "styles": ["normal"]
+        }
+      ],
+      "previewUrl": "https://example.com/mochiy-pop-one-preview.png"
+    }
+  ]
+}

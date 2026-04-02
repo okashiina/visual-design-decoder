@@ -1,45 +1,87 @@
-[
+﻿[
   {
     "family": "Fredoka",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["rounded", "friendly", "playful", "bold", "soft", "headline"]
+    "tags": ["rounded", "friendly", "playful", "bold", "soft", "headline"],
+    "shapeHints": ["rounded-corners", "midbar-center"]
   },
   {
     "family": "Baloo 2",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["rounded", "chunky", "friendly", "headline", "soft", "heavy"]
+    "tags": ["rounded", "chunky", "friendly", "headline", "soft", "heavy"],
+    "shapeHints": ["rounded-corners", "chunky", "midbar-high"]
   },
   {
     "family": "Lilita One",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["thick", "bold", "headline", "playful", "cartoon", "heavy"]
+    "tags": ["thick", "bold", "headline", "playful", "cartoon", "heavy"],
+    "shapeHints": ["chunky", "midbar-high"]
   },
   {
     "family": "Coiny",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["playful", "bouncy", "bold", "headline", "cartoon"]
+    "tags": ["playful", "bouncy", "bold", "headline", "cartoon"],
+    "shapeHints": ["rounded-corners", "midbar-high"]
   },
   {
     "family": "Sniglet",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["rounded", "cute", "friendly", "playful", "headline"]
+    "tags": ["rounded", "cute", "friendly", "playful", "headline"],
+    "shapeHints": ["rounded-corners", "midbar-high"]
   },
   {
     "family": "Mochiy Pop One",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["heavy", "rounded", "playful", "headline", "cute"]
+    "tags": ["heavy", "rounded", "playful", "headline", "cute"],
+    "shapeHints": ["rounded-corners", "chunky", "midbar-high"]
   },
   {
     "family": "Chewy",
     "source": "google-fonts",
     "category": "display",
-    "tags": ["hand-drawn", "playful", "informal", "headline", "cute"]
+    "tags": ["hand-drawn", "playful", "informal", "headline", "cute"],
+    "shapeHints": ["midbar-high"]
+  },
+  {
+    "family": "DynaPuff",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "chunky", "playful", "headline", "soft"],
+    "shapeHints": ["rounded-corners", "chunky", "midbar-high"]
+  },
+  {
+    "family": "Bubblegum Sans",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "playful", "friendly", "headline", "cartoon"],
+    "shapeHints": ["rounded-corners", "midbar-high"]
+  },
+  {
+    "family": "Titan One",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["heavy", "chunky", "headline", "bold", "display"],
+    "shapeHints": ["chunky", "midbar-high", "condensed"]
+  },
+  {
+    "family": "Concert One",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "headline", "friendly", "soft", "retro"],
+    "shapeHints": ["rounded-corners", "midbar-center"]
+  },
+  {
+    "family": "Varela Round",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["rounded", "clean", "friendly", "headline", "supporting"],
+    "shapeHints": ["rounded-corners", "midbar-center"]
   },
   {
     "family": "Patrick Hand",

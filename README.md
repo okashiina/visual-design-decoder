@@ -2,15 +2,17 @@
 
 Turn a poster, banner, UI screenshot, packaging mockup, or menu image into practical design tokens for the web.
 
-`visual-design-decoder` is a Codex skill plus a local analysis script that helps decode a design image into:
+This repository contains an installable Codex skill and its local analysis script. It is built for the moment when you have a strong visual reference, but you need something more actionable than "make it look like this".
+
+## What it does
+
+`visual-design-decoder` helps translate an image into:
 
 - likely hex colors
 - typography direction and font guesses
 - visual hierarchy observations
 - reusable UI tokens for implementation
 - web-friendly font replacement suggestions
-
-It is built for the moment when you have a strong visual reference, but you need something more actionable than “make it look like this”.
 
 ## Why this exists
 
@@ -35,13 +37,9 @@ For a given image, the decoder tries to extract and infer:
 - dominant, accent, and neutral colors
 - likely background and contrast-heavy tones
 - typography personality
-  - heavy rounded display
-  - playful handwritten
-  - clean geometric sans
-  - soft editorial serif-like direction
 - approximate font candidates
 - likely web-safe replacements
-- broad layout/composition signals
+- broad layout and composition signals
 - component clues you can reuse in UI design
 
 ## How it works
@@ -50,7 +48,7 @@ The workflow is hybrid by design:
 
 ### 1. Local-first analysis
 
-The script reads the image and performs:
+The script performs:
 
 - palette extraction
 - rough color grouping
@@ -59,7 +57,7 @@ The script reads the image and performs:
 
 ### 2. Web-assisted refinement
 
-When internet access is available, it can improve recommendations using public references such as:
+When internet access is available, it improves recommendations using public references such as:
 
 - Google Fonts metadata
 - Fontsource public catalog
@@ -69,10 +67,10 @@ If web lookups fail, it still returns useful local-only output.
 
 ## Example use cases
 
-- “What are the main hex colors in this poster?”
-- “Can you guess the fonts used here and suggest web alternatives?”
-- “Extract design tokens from this image so I can rebuild it in React.”
-- “Analyze this menu/poster and tell me what makes the design feel warm or playful.”
+- "What are the main hex colors in this poster?"
+- "Can you guess the fonts used here and suggest web alternatives?"
+- "Extract design tokens from this image so I can rebuild it in React."
+- "Analyze this menu/poster and tell me what makes the design feel warm or playful."
 
 ## Output
 
@@ -101,15 +99,21 @@ Great for:
 After publishing this repository:
 
 ```bash
-npx skills add <owner>/<repo>@visual-design-decoder -g -y
+npx skills add okashiina/visual-design-decoder@visual-design-decoder -g -y
 ```
+
+The installable skill lives in:
+
+- `visual-design-decoder/`
+
+That nested structure is intentional so Codex skill installers can discover the skill by path.
 
 ## Local usage
 
-Run the analyzer directly on an image:
+Run the analyzer from the repository root:
 
 ```bash
-python scripts/analyze_image_design.py "C:\path\to\image.png" ^
+python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.png" ^
   --headline-style "heavy rounded display headline" ^
   --supporting-style "playful handwritten supporting text"
 ```
@@ -117,7 +121,7 @@ python scripts/analyze_image_design.py "C:\path\to\image.png" ^
 Write structured output files:
 
 ```bash
-python scripts/analyze_image_design.py "C:\path\to\image.png" ^
+python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.png" ^
   --json-out analysis.json ^
   --markdown-out analysis.md
 ```
@@ -125,38 +129,17 @@ python scripts/analyze_image_design.py "C:\path\to\image.png" ^
 Disable public web lookup:
 
 ```bash
-python scripts/analyze_image_design.py "C:\path\to\image.png" --no-web
+python visual-design-decoder/scripts/analyze_image_design.py "C:\path\to\image.png" --no-web
 ```
-
-## Skill behavior
-
-The Codex skill is designed to:
-
-- inspect the image first
-- separate observed facts from best-effort guesses
-- clearly label uncertainty for font matching
-- recommend web-friendly replacements instead of pretending it knows exact proprietary fonts
-- return implementation-friendly design tokens
 
 ## Repository structure
 
-- `SKILL.md`  
-  Codex skill instructions and workflow
-
-- `agents/openai.yaml`  
-  skill metadata for discovery and installability
-
-- `scripts/analyze_image_design.py`  
-  the main local-first analyzer
-
-- `references/font_profiles.json`  
-  curated font style profiles used for heuristic matching
-
-- `references/public_sources.md`  
-  public web references used for refinement
-
-- `examples/`  
-  sample Markdown and JSON output
+- `visual-design-decoder/SKILL.md`
+- `visual-design-decoder/agents/openai.yaml`
+- `visual-design-decoder/scripts/analyze_image_design.py`
+- `visual-design-decoder/references/font_profiles.json`
+- `visual-design-decoder/references/public_sources.md`
+- `visual-design-decoder/examples/`
 
 ## Accuracy notes
 
@@ -196,7 +179,7 @@ No paid API is required for v1.
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+pip install -r visual-design-decoder/requirements.txt
 ```
 
 ## Future directions

@@ -1,9 +1,9 @@
 ---
-name: image-design-token-extractor
+name: visual-design-decoder
 description: Analyze a local design image or attached image to extract likely hex palette, font guesses, layout hierarchy, and reusable web UI tokens. Use when a user asks what colors/fonts a visual uses, wants design tokens from a poster or screenshot, or needs a redesign handoff from an image.
 ---
 
-# Image Design Token Extractor
+# Visual Design Decoder
 
 ## Overview
 

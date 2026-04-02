@@ -1,4 +1,4 @@
-# Image Design Token Extractor
+# Visual Design Decoder
 
 Analyze a design image and turn it into practical UI redesign inputs:
 
@@ -57,7 +57,7 @@ If those lookups fail, the analyzer still falls back to local-only output.
 After publishing this repo:
 
 ```bash
-npx skills add <owner>/<repo>@image-design-token-extractor -g -y
+npx skills add <owner>/<repo>@visual-design-decoder -g -y
 ```
 
 ## Repository structure

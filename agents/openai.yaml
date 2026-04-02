@@ -1,8 +1,8 @@
 interface:
-  display_name: "Image Design Token Extractor"
+  display_name: "Visual Design Decoder"
   short_description: "Extract colors, font guesses, and web UI tokens"
   brand_color: "#A10A05"
-  default_prompt: "Use $image-design-token-extractor to analyze this design image and extract palette, font guesses, layout hierarchy, and reusable web UI tokens."
+  default_prompt: "Use $visual-design-decoder to analyze this design image and extract palette, font guesses, layout hierarchy, and reusable web UI tokens."
 
 policy:
   allow_implicit_invocation: true

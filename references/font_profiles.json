@@ -1,0 +1,110 @@
+[
+  {
+    "family": "Fredoka",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "friendly", "playful", "bold", "soft", "headline"]
+  },
+  {
+    "family": "Baloo 2",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "chunky", "friendly", "headline", "soft", "heavy"]
+  },
+  {
+    "family": "Lilita One",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["thick", "bold", "headline", "playful", "cartoon", "heavy"]
+  },
+  {
+    "family": "Coiny",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["playful", "bouncy", "bold", "headline", "cartoon"]
+  },
+  {
+    "family": "Sniglet",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["rounded", "cute", "friendly", "playful", "headline"]
+  },
+  {
+    "family": "Mochiy Pop One",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["heavy", "rounded", "playful", "headline", "cute"]
+  },
+  {
+    "family": "Chewy",
+    "source": "google-fonts",
+    "category": "display",
+    "tags": ["hand-drawn", "playful", "informal", "headline", "cute"]
+  },
+  {
+    "family": "Patrick Hand",
+    "source": "google-fonts",
+    "category": "handwriting",
+    "tags": ["handwritten", "friendly", "informal", "supporting", "casual"]
+  },
+  {
+    "family": "Kalam",
+    "source": "google-fonts",
+    "category": "handwriting",
+    "tags": ["handwritten", "casual", "energetic", "supporting"]
+  },
+  {
+    "family": "Caveat",
+    "source": "google-fonts",
+    "category": "handwriting",
+    "tags": ["handwritten", "soft", "personal", "supporting", "playful"]
+  },
+  {
+    "family": "Gloria Hallelujah",
+    "source": "google-fonts",
+    "category": "handwriting",
+    "tags": ["handwritten", "quirky", "casual", "supporting", "playful"]
+  },
+  {
+    "family": "Schoolbell",
+    "source": "google-fonts",
+    "category": "handwriting",
+    "tags": ["handwritten", "rounded", "cute", "supporting"]
+  },
+  {
+    "family": "Nunito",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["rounded", "friendly", "ui", "body", "supporting"]
+  },
+  {
+    "family": "Quicksand",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["rounded", "clean", "friendly", "ui", "supporting"]
+  },
+  {
+    "family": "Poppins",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["geometric", "clean", "ui", "headline", "body"]
+  },
+  {
+    "family": "Rubik",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["rounded", "modern", "ui", "headline", "body"]
+  },
+  {
+    "family": "Bricolage Grotesque",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["expressive", "modern", "headline", "editorial", "quirky"]
+  },
+  {
+    "family": "Plus Jakarta Sans",
+    "source": "google-fonts",
+    "category": "sans-serif",
+    "tags": ["clean", "modern", "ui", "body", "supporting"]
+  }
+]

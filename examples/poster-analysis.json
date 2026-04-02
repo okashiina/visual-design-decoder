@@ -1,0 +1,364 @@
+{
+  "input": {
+    "path": "C:\\Projects\\risol-club\\RISOL___CLUB 26 - DESIGN FINAL\\POSTER.png",
+    "size": {
+      "width": 1587,
+      "height": 2245
+    }
+  },
+  "palette": {
+    "background": "#FAF4E4",
+    "dominant": [
+      {
+        "hex": "#FAF4E4",
+        "share": 0.2753,
+        "hsl": {
+          "h": 0.1212,
+          "s": 0.6875,
+          "l": 0.9373
+        },
+        "nearestPublicName": "Cotton Fluff"
+      },
+      {
+        "hex": "#B37848",
+        "share": 0.1398,
+        "hsl": {
+          "h": 0.0748,
+          "s": 0.4263,
+          "l": 0.4922
+        },
+        "nearestPublicName": "Rocky Racoon"
+      },
+      {
+        "hex": "#C29069",
+        "share": 0.1104,
+        "hsl": {
+          "h": 0.073,
+          "s": 0.4218,
+          "l": 0.5863
+        },
+        "nearestPublicName": "Shiracha Brown"
+      },
+      {
+        "hex": "#E9E0D6",
+        "share": 0.0767,
+        "hsl": {
+          "h": 0.0877,
+          "s": 0.3016,
+          "l": 0.8765
+        },
+        "nearestPublicName": "Soft & Warm"
+      }
+    ],
+    "accent": [
+      {
+        "hex": "#EB9839",
+        "share": 0.1708,
+        "hsl": {
+          "h": 0.089,
+          "s": 0.8165,
+          "l": 0.5725
+        },
+        "nearestPublicName": "Roasted Chestnut"
+      },
+      {
+        "hex": "#8B472C",
+        "share": 0.0933,
+        "hsl": {
+          "h": 0.0474,
+          "s": 0.5191,
+          "l": 0.3588
+        },
+        "nearestPublicName": "Gingerbread"
+      },
+      {
+        "hex": "#E1B78C",
+        "share": 0.055,
+        "hsl": {
+          "h": 0.0843,
+          "s": 0.5862,
+          "l": 0.7157
+        },
+        "nearestPublicName": "Desert Dust"
+      }
+    ],
+    "neutral": [
+      {
+        "hex": "#FAF4E4",
+        "share": 0.2753,
+        "hsl": {
+          "h": 0.1212,
+          "s": 0.6875,
+          "l": 0.9373
+        },
+        "nearestPublicName": "Cotton Fluff"
+      },
+      {
+        "hex": "#B37848",
+        "share": 0.1398,
+        "hsl": {
+          "h": 0.0748,
+          "s": 0.4263,
+          "l": 0.4922
+        },
+        "nearestPublicName": "Rocky Racoon"
+      },
+      {
+        "hex": "#C29069",
+        "share": 0.1104,
+        "hsl": {
+          "h": 0.073,
+          "s": 0.4218,
+          "l": 0.5863
+        },
+        "nearestPublicName": "Shiracha Brown"
+      }
+    ]
+  },
+  "typography": {
+    "headline": {
+      "styleGuess": "heavy rounded display headline",
+      "possibleMatches": [
+        {
+          "family": "Baloo 2",
+          "source": "google-fonts",
+          "category": "display",
+          "tags": [
+            "rounded",
+            "chunky",
+            "friendly",
+            "headline",
+            "soft",
+            "heavy"
+          ],
+          "score": 11,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Baloo+2"
+        },
+        {
+          "family": "Mochiy Pop One",
+          "source": "google-fonts",
+          "category": "display",
+          "tags": [
+            "heavy",
+            "rounded",
+            "playful",
+            "headline",
+            "cute"
+          ],
+          "score": 11,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Mochiy+Pop+One"
+        },
+        {
+          "family": "Fredoka",
+          "source": "google-fonts",
+          "category": "display",
+          "tags": [
+            "rounded",
+            "friendly",
+            "playful",
+            "bold",
+            "soft",
+            "headline"
+          ],
+          "score": 8,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Fredoka"
+        },
+        {
+          "family": "Lilita One",
+          "source": "google-fonts",
+          "category": "display",
+          "tags": [
+            "thick",
+            "bold",
+            "headline",
+            "playful",
+            "cartoon",
+            "heavy"
+          ],
+          "score": 8,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Lilita+One"
+        },
+        {
+          "family": "Sniglet",
+          "source": "google-fonts",
+          "category": "display",
+          "tags": [
+            "rounded",
+            "cute",
+            "friendly",
+            "playful",
+            "headline"
+          ],
+          "score": 8,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Sniglet"
+        }
+      ],
+      "webRecommendations": [
+        "Baloo 2",
+        "Mochiy Pop One",
+        "Fredoka"
+      ],
+      "confidence": "medium"
+    },
+    "supporting": {
+      "styleGuess": "playful handwritten supporting text",
+      "possibleMatches": [
+        {
+          "family": "Caveat",
+          "source": "google-fonts",
+          "category": "handwriting",
+          "tags": [
+            "handwritten",
+            "soft",
+            "personal",
+            "supporting",
+            "playful"
+          ],
+          "score": 9,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Caveat"
+        },
+        {
+          "family": "Gloria Hallelujah",
+          "source": "google-fonts",
+          "category": "handwriting",
+          "tags": [
+            "handwritten",
+            "quirky",
+            "casual",
+            "supporting",
+            "playful"
+          ],
+          "score": 9,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Gloria+Hallelujah"
+        },
+        {
+          "family": "Patrick Hand",
+          "source": "google-fonts",
+          "category": "handwriting",
+          "tags": [
+            "handwritten",
+            "friendly",
+            "informal",
+            "supporting",
+            "casual"
+          ],
+          "score": 6,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Patrick+Hand"
+        },
+        {
+          "family": "Kalam",
+          "source": "google-fonts",
+          "category": "handwriting",
+          "tags": [
+            "handwritten",
+            "casual",
+            "energetic",
+            "supporting"
+          ],
+          "score": 6,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Kalam"
+        },
+        {
+          "family": "Schoolbell",
+          "source": "google-fonts",
+          "category": "handwriting",
+          "tags": [
+            "handwritten",
+            "rounded",
+            "cute",
+            "supporting"
+          ],
+          "score": 6,
+          "availableOnline": true,
+          "availableInFontsource": true,
+          "specimenUrl": "https://fonts.google.com/specimen/Schoolbell"
+        }
+      ],
+      "webRecommendations": [
+        "Caveat",
+        "Gloria Hallelujah",
+        "Patrick Hand"
+      ],
+      "confidence": "medium"
+    }
+  },
+  "layout": {
+    "composition": "photo-led framing with a calmer central text band",
+    "spacingFeel": "airy and poster-like",
+    "imageRegions": [
+      "top band feels calmer and text-friendly",
+      "middle band feels calmer and text-friendly",
+      "bottom band feels calmer and text-friendly"
+    ],
+    "bands": [
+      {
+        "label": "top",
+        "dominantHex": "#E9993F",
+        "brightness": 187.25,
+        "edgeDensity": 0.0705
+      },
+      {
+        "label": "middle",
+        "dominantHex": "#FAF4E4",
+        "brightness": 216.34,
+        "edgeDensity": 0.0191
+      },
+      {
+        "label": "bottom",
+        "dominantHex": "#AD784E",
+        "brightness": 147.68,
+        "edgeDensity": 0.0812
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "background field",
+      "purpose": "main canvas tone",
+      "visualTokens": [
+        "#FAF4E4"
+      ]
+    },
+    {
+      "name": "headline block",
+      "purpose": "primary title / offer callout",
+      "visualTokens": [
+        "#AD784E"
+      ]
+    },
+    {
+      "name": "supporting metadata line",
+      "purpose": "contact, batch, or supporting details",
+      "visualTokens": [
+        "#FAF4E4"
+      ]
+    }
+  ],
+  "confidenceNotes": [
+    "Font suggestions are best-effort matches, not guaranteed original typefaces."
+  ],
+  "sourcesUsed": [
+    "local-analysis",
+    "google-fonts",
+    "public-font-catalog",
+    "public-color-catalog"
+  ]
+}
